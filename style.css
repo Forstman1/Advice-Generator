@@ -1,0 +1,53 @@
+body {
+	background-color: hsl(218, 23%, 16%);
+	font-size: 28px;
+	font-family: 'Barlow', sans-serif;
+}
+
+.big-box  {
+	display: grid;
+	grid-template-columns: repeat(50%, 1);
+	width: 50%;
+	height: 400px;
+	background-color: hsl(217, 19%, 24%);
+	justify-content: center;
+	text-align: center;
+	margin-top: 500px;
+	margin-left: 380px;
+	color: white;
+	border-radius: 10px;
+}
+
+.boxes {
+	display: inline;
+}
+
+#advice {
+	color: hsl(150, 100%, 66%);
+}
+
+#dice {
+	display: grid;
+	justify-content: center;
+}
+
+
+#circle-dice {
+	display: grid;
+	justify-content: center;
+	background: green;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#dice-image {
+	text-align: center;
+	margin-top: 37px;
+	cursor: pointer;
+}
+
+#dice-image:hover {
+	transition: 5s;
+	transform: rotate(1800deg);
+}
