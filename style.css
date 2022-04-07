@@ -12,7 +12,7 @@ body {
 	background-color: hsl(217, 19%, 24%);
 	justify-content: center;
 	text-align: center;
-	margin-top: 500px;
+	margin-top: 200px;
 	margin-left: 380px;
 	color: white;
 	border-radius: 10px;
@@ -49,5 +49,39 @@ body {
 
 #dice-image:hover {
 	transition: 5s;
-	transform: rotate(1800deg);
+	transform: rotate(3600deg);
 }
+
+@media screen and (max-width: 900px) {
+	body {
+		font-size: 20px;
+	}
+	#seperator-image {
+		width: 90%;
+	}
+	#circle-dice {
+		display: grid;
+		justify-content: center;
+		background: green;
+		border-radius: 100%;
+		width: 50px;
+		height: 50px;
+	}
+	#dice-image {
+		text-align: center;
+		width: 70%;
+		margin-top: 16px;
+		margin-left: 5px;
+		cursor: pointer;
+	}
+	.big-box  {
+		width: 50%;
+		height: 300px;
+		justify-content: center;
+		text-align: center;
+		margin-left: 200px;
+		color: white;
+		border-radius: 10px;
+	}
+	
+  }
